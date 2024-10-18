@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Page</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <p id="TITLE">Prime Factorization</p>
+    <p>Your goal is the find all the prime factors of the number below (including repeats).
+        To do so, input each factor one at a time in the box.
+        The delete button will remove the last number you entered.
+    </p>
+    <button onclick="Reset()" type="button">New Number</button>
+    <p id="NUM">Click New Number</p>
+    <input type="text" id="INPUT">
+    <div>
+        <button onclick="Get_Input()" type="button">Enter</button>
+        <button onclick="Delete()" type="button">Delete</button>
+    </div>
+    <p id="USER">Your input will be displayed here</p>
+    <p id="ERROR">Please only enter numbers</p>
+    <button onclick="Check_Answer()" type="button">Check Answer</button>
+    <p id="ANSWER">Answer</p>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
