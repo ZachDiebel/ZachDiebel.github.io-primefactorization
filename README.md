@@ -1,1 +1,1 @@
-# zachdiebel.github.io-primefactorization
+# primefactorization
